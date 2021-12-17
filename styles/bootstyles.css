@@ -1,0 +1,62 @@
+/* Braden Critchfield- last edited 12/17/21 */
+
+.header {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    text-align: right;
+    background-color: darkblue;
+}
+
+.tableau {
+    position: absolute;
+    top: 114px;
+    bottom: 64px;
+    left: 5px;
+    right: 5px;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font: 8px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    background-color: darkblue;
+}
+
+.navlist {
+    color: white;
+}
+
+a {
+   color: white; 
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+h1 {
+    box-align: center;
+}
+
+.tableauLive {
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+}
+
+.caption {
+    background-color: darkblue;
+    color: white;
+}
+
